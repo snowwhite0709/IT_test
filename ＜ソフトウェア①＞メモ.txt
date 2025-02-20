@@ -1,0 +1,250 @@
+＜ソフトウェア①＞
+
+●セマフォ
+●P操作
+●V操作
+●ページング方式
+https://wa3.i-3-i.info/word13352.html
+●セグメント方式
+●ページフォールト(page fault)
+：ページング方式の仮想記憶（仮想メモリ）において、プログラム（プロセス）がアクセスしようとした仮想メモリ領域（ページ）が物理メモリ上に無く、ストレージに退避していることが分かったときに発生する例外あるいは割り込み処理。
+●ページアウト
+●ページイン
+●オープンソースライセンス
+●GNU GPL(General Public License)
+●コピーレフト
+●LRU
+●FIFO
+●LFU
+●LIFO
+●ループ展開
+●演算子強度低減
+●定数畳み込み／定数伝播
+●インライン展開
+●タイムクウォンタム
+●TSS(Time Sharing System)
+●キャラクタスペシャルファイル
+●ブロックスペシャルファイル
+●ジョブ
+●ジョブステップ
+●プロセス
+●タスク
+●スレッド
+●バッチ処理
+●ジョブスケジューラー
+●CASEツール(Computer Aided Software Engineering Tool)
+●マイクロカーネルアーキテクチャ
+●モノリシックカーネル
+●アサーションチェッカ
+●静的コード解析ツール
+●テストカバレージ分析ツール
+●I^2Cバス
+●ボトルネック
+●ASF(Apacheソフトウェア財団)
+●BSD(Berkeley Software Distribution License)
+●コードオーディタ
+●トレーサー
+●JMS(Java Message Service)
+●オーバーレイ
+●最初適合(first fit)
+●コ三ッタ
+●コントリビュータ
+●OSI(Open Source Initiative)
+●OSD(The Open Source Definition)
+●ディスパッチング
+●エミュレータ
+●クロスコンパイラ
+●最適化コンパイラ
+●プログラムジェネレーター
+●FCFS(First Come First Served)
+●SPT(Shortest Processing Time First)
+●デッドラインスケジューリング方式
+●EJB(Enterprise Java Beans)
+●Apache Subversion
+●CVS(Concurrent Versions System)
+●RCS(Revision Control System)
+
+＜ソフトウェア②＞
+●DAT
+●glibc
+●GNUソフトウェア
+●GNOME
+●KDE
+●PSW(Program Status Word)
+●メモリコンパクション
+●動的再配置
+●動的リンキング
+●ディスパッチ
+●ディスパッチャ
+●TCB(Task Control Block)
+●コンカレント処理
+●ソケット
+●デーモン
+●KVM(Dernel-based Virtual Machine)
+●QEMU(Quick Emulator)
+●Xen
+●MMU(Memory Management Unit)
+●保護キー機構
+●ヒープ
+●
+●
+
+
+
+＜ハードウェア①＞
+●ウォッチドッグタイマ
+●マスカブル割込み
+●ECCメモリ(Error Check and Correct memory)
+●ターボ符号
+●リードソロモン符号(RS符号)
+●RFタグ(ICタグ)
+●パッシブタグ(受動タグ)
+●アクティブタグ(能動タグ)
+●IrDA(Infrared Data Association)
+●PWM(Pulse Width Modulation)
+●PAM(Pulse Amplitude Modulation)
+●PLC(Programable Logic Controller)
+●ラダー図
+●リレーシーケンス回路
+●プログラマブルコントローラー(シーケンサ)
+●PID制御(Proportional-Integral-Differential)
+●FPGA(Field Programmable Gate Array)
+●DDL(Data Definition Language)
+●HDL(Hardware Description Language)
+●SystemC
+●VHDL
+●Verilog
+●MOSトランジスタ
+●pn結合
+●正孔
+●印加
+●発行ダイオード
+●フォトダイオード
+●ツェナーダイオード
+●OMR(Optical Mark Reader)：光学式マーク読取装置
+●DC(直流)モーター
+●AC(交流)モーター
+●SoC(System on a Chip)
+●マイクロコントローラー
+●チップセット
+●SiP(System In Package)
+●分解能
+●CS(Chip Select)信号
+●L
+●LSB(Least Significant Bit)
+●アドレスレコーダ
+●LiDAR(Light Detection And Ranging)
+●TOF方式
+●FMCW方式
+●LUT(Lookup Table)
+●NFC(Near Field Communication)
+●コンデンサ
+●インダクタ
+●CMOS(Complementary Metal Oxide Semiconductor：相補型金属酸化膜半導体)
+●バイポーラ素子
+●クロックゲーティング方式
+●LSI
+●パワーゲーティング
+●マルチVdd
+●クロックゲーティング
+●DSP(Digital Signal Processor)
+●FIRフィルター
+●高速フーリエ変換(FFT)
+●LSB
+●MSB
+●UV-EPROM(紫外線消去型EPROM)
+●直流給電
+●UPS(Uninterruptible Power System)
+●DDR-SDRAM(Double-Data-Rate Synchronous DRAM)
+●EDO-DRAM(Extended Data Out DRAM)
+●ページモード・アクセス
+●ReRAM：抵抗変化メモリ
+●RTC(Real-Time Clock)
+●PLL(Phase Locked Loop)：位相同期回路
+●ESD(Electrostatic Discharge)
+●ファームウェア
+
+
+＜ハードウェア②＞
+●PLC(Power Line Communications)
+●PLC(Programable Logic Controller)
+●ADSL(Asymmetric Digital Subscriber Line)
+●ラッチアップ
+●LSI(Large-Scale Integration)
+●プログラマブルロジックデバイス
+●エネルギーハーベスティング
+●FPGA(Field Programmable Gate Array)
+●アンチヒューズ方式
+●ASSP(Application Specific Standard Product)
+●FPU()：浮動小数点演算装置
+
+
+＜ユーザーインタフェース＞
+●パンくずリスト
+●サイトマップ
+●回顧法
+●思考発話法
+●認知的ウォークスルー法
+●デシマルコード
+●ニモニックコード
+●ブロックコード
+●ユニバーサルデザイン
+●アクセシビリティ
+●情報バリアフリー
+●習得性(learnability)
+●判読性(legibility)
+●認識性(recognisability)
+●識別性(discriminability)
+
+
+
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+●
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
