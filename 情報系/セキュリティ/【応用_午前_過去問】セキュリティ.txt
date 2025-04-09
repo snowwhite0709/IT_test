@@ -5,67 +5,67 @@
 【応用_午前_過去問】セキュリティ①_メモ
 
 〔問１〕
-オープンダイレクト
+●オープンダイレクト
 ：Webサイト内のリダイレクト機能を悪用し、ユーザーを意図しない不正なサイトへ誘導する攻撃手法
-DNSアンプ攻撃(DNSリフレクタ攻撃)
+●DNSアンプ攻撃(DNSリフレクタ攻撃)
 ：攻撃者が小さなリクエストを送信し、大きな応答を標的に向けて送りつけることで、大量のトラフィックを発生させるDDoS（分散型サービス妨害）攻撃の一種
 DNSが踏み台にされている
-踏み台攻撃
+●踏み台攻撃
 ：第三者のPCやサーバーを攻撃の中継点として利用
 
 
 〔問２〕
-情報セキュリティ早期警戒パートナーシップガイドライン
+●情報セキュリティ早期警戒パートナーシップガイドライン
 ：日本の政府機関（経済産業省）が策定した脆弱性情報の適切な取扱いに関するガイドライン
-JPCERT/CC(Japan Computer Emergency Response Team Coordination Center)
+●JPCERT/CC(Japan Computer Emergency Response Team Coordination Center)
 ：日本のコンピュータ緊急対応チーム（CERT）で、国内外のサイバーセキュリティインシデントに対応する組織
 企業や組織から報告されたサイバー攻撃や脆弱性の情報を分析・共有し、対策を促す
-JVN(Japan Vulnerability Notes)
+●JVN(Japan Vulnerability Notes)
 ：日本国内のソフトウェアやシステムの脆弱性情報を公開するポータルサイト
 JPCERT/CCとIPAが共同で運営し、脆弱性の詳細情報や対策方法を公表
-ISMS認証(Information Security Management System 認証)
+●ISMS認証(Information Security Management System 認証)
 ：企業や組織が情報セキュリティ管理を適切に行っていることを証明する国際的な認証制度
 国際規格 ISO/IEC 27001 に基づいて、第三者機関が審査を行い、基準を満たしていれば認証が与えられる
 
 
 〔問３〕
-公開鍵暗号方式
-1対nの場合、「公開鍵は複数で秘密鍵は1つ」は例外的であり、管理者が不特定多数からのメールの暗号化で使われる
+●公開鍵暗号方式
+：1対nの場合、「公開鍵は複数で秘密鍵は1つ」は例外的であり、管理者が不特定多数からのメールの暗号化で使われる
 
 
 
 〔問７〕
-J-CRAT(Japan Cybercrime Response and Analysis Team)
+●J-CRAT(Japan Cybercrime Response and Analysis Team)
 ：日本のサイバー攻撃対策組織で、特に 標的型攻撃（APT攻撃）への対応 を目的
 攻撃を受けた際の対応 に関する組織
-スキミング
+●スキミング
 ：クレジットカードやデビットカードなどの情報を不正に取得する手法
 
 
 〔問８〕
-ISMS(Information Security Management System)
+●ISMS(Information Security Management System)
 ：組織全体で情報セキュリティを管理する仕組み 
 
 
 〔問９〕
-DKIM(DomainKeys Identified Mail)
+●DKIM(DomainKeys Identified Mail)
 ：電子メールの送信者の ドメイン名 に基づいて、メッセージに デジタル署名 を付与する仕組み
-DMARC(Domain-based Message Authentication, Reporting & Conformance)
+●DMARC(Domain-based Message Authentication, Reporting & Conformance)
 ：メールの送信元ドメインの認証とポリシー設定を行う仕組み
 SPFとDKIMを組み合わせて、送信されたメールが正当なものであるかどうかを判断し、さらにその結果に基づいて受信者にどのように処理するか（メールを受け入れる、隔離する、拒否する）を指示する
-SPF(Sender Policy Framework)
+●SPF(Sender Policy Framework)
 ：送信者のメールサーバーが、そのドメインから送信する許可を得ているかを確認する仕組み
 
 〔問11〕
-ブロードバンドルータ
+●ブロードバンドルータ
 ：インターネット接続を家庭やオフィスの複数のデバイスで共有するためのネットワーク機器
-IPマスカレード
+●IPマスカレード
 ：ネットワークアドレス変換（NAT）の一種で、インターネットに接続されているローカルネットワーク内の複数の端末が1つのグローバルIPアドレスを共有する仕組み
-PPPoE(Point-to-Point Protocol over Ethernet)
+●PPPoE(Point-to-Point Protocol over Ethernet)
 ：Ethernetネットワーク上でPPP（Point-to-Point Protocol）を使用してインターネット接続を確立
-WPA(Wi-Fi Protected Access)
+●WPA(Wi-Fi Protected Access)
 ：Wi-Fiネットワークのセキュリティを強化するための暗号化技術
-WPS(Wi-Fi Protected Setup)
+●WPS(Wi-Fi Protected Setup)
 ：Wi-Fiネットワークに簡単に接続するための技術
 
 ※マスカレード
@@ -73,31 +73,32 @@ WPS(Wi-Fi Protected Setup)
 
 
 〔問12〕
-デジタルフォレンジックス
+●デジタルフォレンジックス
 ：コンピュータやネットワークに関連する犯罪や不正行為を調査するための技術と手法
 
 〔問13〕
-APT(Advanced Persistent Threats)
+●APT(Advanced Persistent Threats)
 ：通常のサイバー攻撃と異なり、標的に対して継続的に攻撃を行い、痕跡を隠しながら潜伏するのが特徴
-Dos攻撃(Denial of Service Attack：サービス拒否攻撃)
+●Dos攻撃(Denial of Service Attack：サービス拒否攻撃)
 ：サーバーやネットワークに対して大量のリクエストを送りつけることで、処理能力を超えさせ、正規のユーザーがサービスを利用できないようにする攻撃
 
 
 〔問14〕
-SSL(Secure Sockets Layer) ←〔問24〕
+●SSL(Secure Sockets Layer) ←〔問24〕
 ：インターネット上でデータを暗号化し、安全に通信するためのプロトコル
-NIDS(Network-Based IDS：ネットワーク型侵入検知システム)
+●NIDS(Network-Based IDS：ネットワーク型侵入検知システム)
 ：ネットワークを監視して不正アクセスや攻撃を検知するシステ
-ムHIDS(Host-Based IDS：ホスト型侵入検知システム)
+ム
 外部からの攻撃向け
+●HIDS(Host-Based IDS：ホスト型侵入検知システム)
 ：サーバーやPC（ホスト）の内部を監視し、不正なアクセスやファイルの改ざんを検知するシステム
 内部の異常検知向け
-シグネチャ
+●シグネチャ
 ：ウイルスや不正アクセスなどの攻撃を特定するための「特徴的なパターン」のこと
-SSLアクセラレータ機能
+●SSLアクセラレータ機能
 ：SSL/TLSの暗号化・復号処理を専用のハードウェアやソフトウェアで高速化する機能
 
-SSL/TLSの仕組み（簡単な流れ）
+＜SSL/TLSの仕組み（簡単な流れ）＞
 --------------------------------------------------
 クライアント（ユーザーのPCやスマホ）とサーバーが通信を開始
 サーバーがSSL証明書（公開鍵）をクライアントに送信
@@ -107,39 +108,39 @@ SSL/TLSの仕組み（簡単な流れ）
 
 
 〔問15〕
-VBScript(Visual Basic Script)
+●VBScript(Visual Basic Script)
 ：Microsoftが開発したスクリプト言語で、Windows環境で動作
 HTMLやWindowsの管理スクリプト、Officeのマクロなどに組み込まれることがあり、特に**Internet ExplorerやWindows Script Host（WSH）**で動作
-ブートセクタ
+●ブートセクタ
 ：ストレージデバイス（HDD、SSD、USBメモリなど）の最初の部分にある領域で、PCの起動に必要な情報が記録されている
 PCの電源を入れた際に最初に読み込まれ、OSの起動プロセスを開始
-Visual Basic
+●Visual Basic
 ：Microsoftが開発したプログラミング言語で、GUIアプリケーションの開発に特化
 現在は「VB.NET」として進化し、.NETフレームワークを利用する形に
-マクロウィルス
+●マクロウィルス
 ：Microsoft Office（WordやExcelなど）に組み込まれたマクロ機能を悪用するウイルス
-ブートセレクタウィルス
+●ブートセレクタウィルス
 ：PCのブートセクタに感染するウイルス
 
 
 〔問16〕
-CISO(Chief Information Security Officer)
+●CISO(Chief Information Security Officer)
 ：最高情報セキュリティ責任者のことで、企業や組織において情報セキュリティ全般の管理・統括を担当する役職で
-CIA
+●CIA
 ：機密性・完全性・可用性
-COBIT(Control Objectives for Information and Related Technology)
+●COBIT(Control Objectives for Information and Related Technology)
 ：ITガバナンスとITマネジメントのフレームワークで、ISACA（情報システム監査・統制協会）が開発
 企業のITリスク管理や内部統制に関するベストプラクティスを提供し、特に監査やコンプライアンス管理に役立つ
-ISADA(Information Systems Audit and Control Association)
+●ISADA(Information Systems Audit and Control Association)
 ：情報システム監査、セキュリティ、リスク管理に関する国際的な組織
 COBITの開発元であり、CISA（公認情報システム監査人）などの資格を提供
-ITGI(IT Governance Institute)
+●ITGI(IT Governance Institute)
 ：ISACAの下部組織で、企業におけるITガバナンスの向上を目的として活動
 
 〔問18〕
-メッセージ認証
+●メッセージ認証
 ：送受信されるデータ（メッセージ）が改ざんされていないことを確認する仕組み
-メッセージ認証符号(MAC：Message Authentication Code)
+●メッセージ認証符号(MAC：Message Authentication Code)
 ：送信者と受信者が共有する秘密鍵を使ってメッセージの認証を行う技術
 ---------------------------------------
 MACの仕組み
@@ -158,31 +159,31 @@ MACの特徴
 
 
 〔問20〕〔問30〕
-CRL(Certificate Revocation List：証明書失効リスト)
+●CRL(Certificate Revocation List：証明書失効リスト)
 ：失効したデジタル証明書のリスト
 認証局（CA：Certificate Authority）が発行し、有効でない証明書を通知するために使われる
 
 
 〔問22〕
-クライアント証明書
+●クライアント証明書
 ：クライアント（利用者やPC）を認証するためのデジタル証明書
-リバースプロキシサーバ
+●リバースプロキシサーバ
 ：クライアントからのリクエストを受け取り、適切なサーバーに転送する中継サーバー
 
 
 〔問23〕
-SPF(Sender Policy Framework)
-SPFの仕組み
+●SPF(Sender Policy Framework)
+＜SPFの仕組み＞
 送信ドメインの管理者が「このドメインのメールはどのサーバーから送るか」をDNSに登録
 受信側のメールサーバーが、送信元のIPアドレスとDNSの情報を照合
 一致すれば正規のメール、一致しなければなりすましの可能性があると判断
 
 
 〔問30〕
-OCSP(Online Certificate Status Protocol)
+●OCSP(Online Certificate Status Protocol)
 ：デジタル証明書の有効性をリアルタイムで確認するためのプロトコル
 --------------------------------------
-OCSPの仕組み
+＜OCSPの仕組み＞
 ユーザーがWebサイトにアクセスし、サーバー証明書を受け取る
 Webサーバーがその証明書の状態を確認するためにOCSPレスポンダ（OCSPサーバー）に問い合わせ
 OCSPサーバーが証明書の状態（有効・失効・不明）を回答
@@ -191,14 +192,14 @@ Webサーバーはその情報に基づいて接続を許可するか判断す�
 
 
 〔問31〕
-TLS(Transport Layer Security)
+●TLS(Transport Layer Security)
 ：インターネット上でデータを安全に送受信するための暗号化プロトコルで、主にWebサイトとブラウザ間の通信を暗号化して、第三者に内容が見られたり改ざんされたりしないように保護
-デジタル証明書
+●デジタル証明書
 ：通信相手の身元を証明するために使用されるデジタル形式の証明書
 主に、公開鍵暗号方式で使われる公開鍵とその所有者情報を含み、**証明書発行機関（CA）**が発行
 
 
-デジタル証明書とデジタル署名の違い
+＜デジタル証明書とデジタル署名の違い＞
 ●デジタル証明書
 ：デジタル証明書は、主に公開鍵の所有者を認証するために使用
 ●デジタル署名
@@ -761,6 +762,12 @@ J-CRAT → 企業や組織への攻撃発生時の救急対応
 
 ------------------------------------------------------
 【応用_午前_過去問】セキュリティ④_メモ
+
+※計算
+〔問14〕
+〔問25〕
+
+
 
 〔問１〕
 ●ディスクアレイ
