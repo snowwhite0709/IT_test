@@ -255,6 +255,11 @@ UDPで使用される
 ：プロセスの流れや並行処理、状態遷移を視覚的に表現できるモデル
 主に分散システムや制御システムの動作解析に利用される
 
+※NFVとSDNの違い
+●NFV（Network Functions Virtualization）
+→ネットワーク機能の仮想化
+●SDN（Software-Defined Networking）
+→ネットワーク制御の分離・集中管理
 
 
 〔問２〕

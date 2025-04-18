@@ -1,0 +1,57 @@
+【セキュリティ】hostsファイルについて
+＜hostsファイルの中身＞
+
+
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+192.168.1.41 rdsrv01.abc.local 
+
+
+
+*********************************************************************
+「192.168.1.41 rdsrv01.abc.local 」部分
+
+●意味
+：クライアント（あなたのPC）が rdsrv01.abc.local という名前にアクセスしようとしたとき、DNSを使わずに直接 192.168.1.41 にアクセスするようにするという設定
+●用途
+・社内ネットワークでDNSが使えない、あるいは一時的に別サーバに切り替えたいとき
+・テストや開発環境のために一部の名前解決を手動で制御したいとき
+
+※上記は記入されない場合がある
+記入される時点は
+① システム管理者やユーザーが手動で追加した
+② IT部門や管理者がスクリプトで自動設定した
+③ 一部のソフトウェアが追加した
+
+
+
+*********************************************************************
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+※OSが特別扱いして 127.0.0.1 に解決してくれる（DNS不要）
+
+
+
+
